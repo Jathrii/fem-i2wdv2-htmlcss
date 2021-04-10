@@ -1,6 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
 .title {
   text-align: center;
   font-family: cursive;
   font-weight: normal;
   font-size: 60px;
+}
+
+.title-header {
+  border-bottom: 3px solid black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+}
+
+.story {
+  padding: 0 10px;
+  border-right: 1px black solid;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.half {
+  width: 100%;
+}
+
+.article-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.article-img {
+  width: 100%;
 }
